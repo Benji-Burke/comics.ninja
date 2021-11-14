@@ -70,8 +70,6 @@ body {
   font-weight: bold;
 }
 
-
-
 .content h2,
 .content h3 {
   font-size: 150%;
@@ -88,13 +86,13 @@ body {
 
 img {
   width: 100vw;
-  background-size: cover;
+  height: 80vh;
+  /* background-size: cover; */
   object-fit: cover;
 }
 .carousel {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  /* height: 100vh; */
-  overflow: hidden; 
+  overflow: hidden;
   width: 80%;
   margin: auto;
 }
@@ -108,7 +106,6 @@ img {
 .image-box {
   display: flex;
 }
-
 
 .text {
   /* color: white;
@@ -124,7 +121,6 @@ img {
   width: 100%;
   text-align: center;
 }
-
 
 .buttons-container {
   display: flex;
